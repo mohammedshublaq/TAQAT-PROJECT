@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- foontawsem scc link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+  <div class="parent_container flex">
+    <aside class="w-[20%] h-100% bg-[#075E66] text-white py-6">
+    <!-- الشعار -->
+    <div class="logo text-center mb-8">
+        <h1 class="text-[#CAE5DE] text-6xl font-bold">تحرر</h1>
+    </div>
+
+    <!-- روابط القائمة -->
+    <nav class="flex flex-col gap-2">
+        <a href="#" class="flex items-center gap-4 px-6 py-3 bg-[#81C6C3]">
+            <i class="fa-solid fa-table-cells-large"></i> <span>الرئيسية</span>
+        </a>
+        <a href="#" class="flex items-center gap-4 px-6 py-3 hover:bg-[#81C6C3]">
+            <i class="fa-solid fa-users"></i> <span>إدارة العملاء</span>
+        </a>
+        <a href="#" class="flex items-center gap-4 px-6 py-3 hover:bg-[#81C6C3]">
+            <i class="fa-solid fa-user-doctor"></i> <span>إدارة الأخصائيين</span>
+        </a>
+        <a href="#" class="flex items-center gap-4 px-6 py-3 hover:bg-[#81C6C3]">
+            <i class="fa-solid fa-comments"></i> <span>الجلسات</span>
+        </a>
+        <a href="#" class="flex items-center justify-between px-6 py-3 hover:bg-[#81C6C3]">
+            <div class="flex items-center gap-4">
+                <i class="fa-solid fa-shield-heart"></i> <span>برامج الدعم</span>
+            </div>
+            <i class="fa-solid fa-chevron-down text-sm"></i>
+        </a>
+        <a href="#" class="flex items-center gap-4 px-6 py-3 hover:bg-[#81C6C3]">
+            <i class="fa-solid fa-chart-line"></i> <span>التقارير والإحصائيات</span>
+        </a>
+        <a href="#" class="flex items-center gap-4 px-6 py-3 hover:bg-[#81C6C3]">
+            <i class="fa-solid fa-message"></i> <span>إدارة المحادثات</span>
+        </a>
+        <a href="#" class="flex items-center justify-between px-6 py-3 hover:bg-[#81C6C3]">
+            <div class="flex items-center gap-4">
+                <i class="fa-solid fa-bell"></i> <span>الإشعارات</span>
+            </div>
+            <i class="fa-solid fa-chevron-down text-sm"></i>
+        </a>
+        <a href="#" class="flex items-center justify-between px-6 py-3 hover:bg-[#81C6C3]">
+            <div class="flex items-center gap-4">
+                <i class="fa-solid fa-pen-to-square"></i> <span>الصفحات</span>
+            </div>
+            <i class="fa-solid fa-chevron-down text-sm"></i>
+        </a>
+<a href="#" class="flex items-center gap-4 px-6 py-3 hover:bg-[#81C6C3]">
+    <i class="fa-solid fa-gear"></i> <span>الإعدادات</span>
+</a>
+
+<div class="border-b border-[#81C6C3] pt-2">
+            <a href="#" class="flex items-center gap-4 px-6 py-3 hover:bg-[#81C6C3]">
+                <i class="fa-solid fa-right-from-bracket"></i> <span>تسجيل الخروج</span>
+            </a>
+        </div>
+        
+    </nav>
+</aside>
+
+
+
+
+
+<div class="content_page w-[80%]">
+          <!-- header sec start here -->
+    <header class="bg-white p-[10px_20px] border-b border-[#88888848]">
+        <nav class="flex justify-between items-center">
+            <!-- left_main_sec -->
+            <div class="search_side relative flex items-center w-[400px]">
+                <i class="fa-solid fa-magnifying-glass absolute right-[15px] text-[#888888]"></i>
+                <input type="text" placeholder="إبحث عن أي شي داخل المنصة"
+                    class="w-full p-[10px_40px_10px_15px] outline-none border border-[#88888848] rounded-[8px]">
+            </div>
+
+            <div class="user_side flex items-center gap-[20px]">
+                <i class="fa-solid fa-bell p-[15px] rounded-[8px] border border-[#8888889f] text-[#888888]"></i>
+                <div class="info_side flex items-center gap-[10px]">
+                    <div class="profile_img">
+                        <img src="imgs/profile_imgs.jpg" alt="صورة المستخدم"
+                            class="w-[50px] h-[50px] rounded-[50%] object-cover">
+                    </div>
+                    <div class="wlc_name w-[50px] text-center text-[#888888]">
+                        <p class="text-[#888888]">مرحبا <span class="text-[#000000]"><b>أيوب</b></span></p>
+                    </div>
+                    <i class="fa-solid fa-chevron-down text-[#888888]"></i> <!-- arrow_icon  -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header sec end here -->
+    <!-- main start here -->
+    <main class="summary_monthly border border-1 border-[#E5E6EB] rounded-[15px] m-[50px]">
+        <div class="main_info">
+            <div class="last_time_update flex justify-between items-center p-[20px_20px]">
+                <div class="info_monthly">
+                    <h3 class="text-[#4E5969] font-bold text-2xl">ملخص الشهر</h3>
+                    <p class="text-[#888888]">آخر تحديث: منذ <span>5 دقائق</span></p>
+                </div>
+                <p class="text-[#888888]">
+                    <span class="Month">يونيو </span>
+                    <span class="year">2025</span>
+                </p>
+            </div>
+
+
+            <div class="cards_container w-full px-5">
+
+                <div class="border-b border-[#E5E6EB] pb-8">
+
+                    <div class="cards_info flex gap-[15px] justify-between">
+
+                        <div
+                            class="card_item w-[19%] flex items-center gap-[15px] border-[1px] border-[#88888848] p-[15px_20px] rounded-[15px]">
+                            <div class="img"><img src="imgs/M_S_ua.png" alt=""></div>
+                            <div class="card_text">
+                                <h4 class="text-[#075E66] text-2xl font-bold">5665</h4>
+                                <p class="text-[#888888]">عدد المستخدمين</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="card_item w-[19%] flex items-center gap-[15px] border-[1px] border-[#88888848] p-[15px_20px] rounded-[15px]">
+                            <div class="img"><img src="imgs/Doctor.png" alt=""></div>
+                            <div class="card_text">
+                                <h4 class="text-[#075E66] text-2xl font-bold">254</h4>
+                                <p class="text-[#888888]">عدد الأخصائيين</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="card_item w-[19%] flex items-center gap-[15px] border-[1px] border-[#88888848] p-[15px_20px] rounded-[15px]">
+                            <div class="img"><img src="imgs/message.png" alt=""></div>
+                            <div class="card_text">
+                                <h4 class="text-[#075E66] text-2xl font-bold">154</h4>
+                                <p class="text-[#888888]">عدد الجلسات</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="card_item w-[19%] flex items-center gap-[15px] border-[1px] border-[#88888848] p-[15px_20px] rounded-[15px]">
+                            <div class="img"><img src="imgs/heart.png" alt=""></div>
+                            <div class="card_text">
+                                <h4 class="text-[#075E66] text-2xl font-bold">254</h4>
+                                <p class="text-[#888888]">عدد الدورات</p>
+                            </div>
+                        </div>
+
+                        <div
+                            class="card_item w-[19%] flex items-center gap-[15px] border-[1px] border-[#88888848] p-[15px_20px] rounded-[15px]">
+                            <div class="img"><img src="imgs/profit.png" alt=""></div>
+                            <div class="card_text">
+                                <h4 class="text-[#075E66] text-2xl font-bold">254</h4>
+                                <p class="text-[#888888]">اجمالي الأرباح</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="more_reports ">
+                <a href="" class="flex m-auto w-max items-center mt-5 mb-5 gap-3">
+                    <h4 class="text-[#075E66]">المزيد من التقارير </h4>
+                    <i class="fa-solid fa-angle-left text-[#075E66] content-center"></i>
+                </a>
+            </div>
+        </div>
+    </main>
+    <!-- main end here -->
+<!-- last_session_alert start here -->
+    <section class="last_session_alert flex ">
+        <div class="last_session border border-1 rounded-[15px] p-[15px] border-[#88888848] m-[15px] w-[50%] mr-[50px] h-auto">
+            <div class="info_last_session flex justify-between p-[10px_20px] ">
+                <div class="icon_text flex gap-4 items-center">
+                    <i class="fa-regular fa-comment-dots text-[#888888] "></i>
+                    <h3 class="text-[#4E5969] font-bold text-2xl">أحدث الجلسات</h3>
+                </div>
+                <p class="text-[#888888]">
+                    <span class="Month">يونيو </span>
+                    <span class="year">2025</span>
+                </p>
+            </div>
+
+
+            <div class="client_session border border-1 border-[#88888848] p-4 rounded-xl mb-[30px]">
+                <div class="info_cleint flex items-center gap-4">
+
+                    <div class="img_client">
+                        <img src="imgs/profile_imgs.jpg" alt="client img" class="w-[50px] h-[50px] rounded-[50%]">
+                    </div>
+
+                    <div class="about_client flex-grow flex justify-between items-center">
+
+                        <div>
+                            <h5 class="text-[#1D2129] font-bold">محمد علي</h5>
+                            <p class="text-[#4E5969]">مع الاخصائي : هاشم ناجي</p>
+                        </div>
+
+                        <div class="price text-left">
+                            <h3 class="text-[#075E66] font-bold">126ر.س</h3>
+                            <p class="text-[#4E5969]">منذ 5 دقائق</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="client_session border border-1 border-[#88888848] p-4 rounded-xl mb-[30px]">
+                <div class="info_cleint flex items-center gap-4">
+
+                    <div class="img_client">
+                        <img src="imgs/profile_imgs.jpg" alt="client img" class="w-[50px] h-[50px] rounded-[50%]">
+                    </div>
+
+                    <div class="about_client flex-grow flex justify-between items-center">
+
+                        <div>
+                            <h5 class="text-[#1D2129] font-bold">محمد علي</h5>
+                            <p class="text-[#4E5969]">مع الاخصائي : هاشم ناجي</p>
+                        </div>
+
+                        <div class="price text-left">
+                            <h3 class="text-[#075E66] font-bold">126ر.س</h3>
+                            <p class="text-[#4E5969]">منذ 5 دقائق</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="client_session border border-1 border-[#88888848] p-4 rounded-xl mb-[30px]">
+                <div class="info_cleint flex items-center gap-4">
+
+                    <div class="img_client">
+                        <img src="imgs/profile_imgs.jpg" alt="client img" class="w-[50px] h-[50px] rounded-[50%]">
+                    </div>
+
+                    <div class="about_client flex-grow flex justify-between items-center">
+
+                        <div>
+                            <h5 class="text-[#1D2129] font-bold">محمد علي</h5>
+                            <p class="text-[#4E5969]">مع الاخصائي : هاشم ناجي</p>
+                        </div>
+
+                        <div class="price text-left">
+                            <h3 class="text-[#075E66] font-bold">126ر.س</h3>
+                            <p class="text-[#4E5969]">منذ 5 دقائق</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="client_session border border-1 border-[#88888848] p-4 rounded-xl mb-[30px]">
+                <div class="info_cleint flex items-center gap-4">
+
+                    <div class="img_client">
+                        <img src="imgs/profile_imgs.jpg" alt="client img" class="w-[50px] h-[50px] rounded-[50%]">
+                    </div>
+
+                    <div class="about_client flex-grow flex justify-between items-center">
+
+                        <div>
+                            <h5 class="text-[#1D2129] font-bold">محمد علي</h5>
+                            <p class="text-[#4E5969]">مع الاخصائي : هاشم ناجي</p>
+                        </div>
+
+                        <div class="price text-left">
+                            <h3 class="text-[#075E66] font-bold">126ر.س</h3>
+                            <p class="text-[#4E5969]">منذ 5 دقائق</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="client_session border border-1 border-[#88888848] p-4 rounded-xl mb-[30px]">
+                <div class="info_cleint flex items-center gap-4">
+
+                    <div class="img_client">
+                        <img src="imgs/profile_imgs.jpg" alt="client img" class="w-[50px] h-[50px] rounded-[50%]">
+                    </div>
+
+                    <div class="about_client flex-grow flex justify-between items-center">
+
+                        <div>
+                            <h5 class="text-[#1D2129] font-bold">محمد علي</h5>
+                            <p class="text-[#4E5969]">مع الاخصائي : هاشم ناجي</p>
+                        </div>
+
+                        <div class="price text-left">
+                            <h3 class="text-[#075E66] font-bold">126ر.س</h3>
+                            <p class="text-[#4E5969]">منذ 5 دقائق</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="last_session border border-1 rounded-[15px] p-[15px] border-[#88888848] m-[15px] w-[50%] ml-[50px]" >
+            <div class="info_last_session flex justify-between p-[10px_20px] ">
+                <div class="icon_text flex gap-4 items-center">
+                    <i class="fa-regular fa-bell text-[#888888]"></i>
+                    <h3 class="text-[#4E5969] font-bold text-2xl">التنبيهات </h3>
+                </div>
+                <p class="text-[#888888]">
+                    <span class="Month">يونيو </span>
+                    <span class="year">2025</span>
+                </p>
+            </div>
+
+
+            <div class="client_session border border-1 border-[#88888848] p-4 rounded-xl mb-[30px]">
+                <div class="info_cleint flex items-center gap-4">
+
+                    <div class="img_client">
+                        <img src="imgs/user_pic.png" alt="client img" class="w-[50px] h-[50px] rounded-[50%]">
+                    </div>
+
+                    <div class="about_client flex-grow items-center">
+
+                        <div class="flex gap-3">
+                            <h5 class="text-[#1D2129] font-bold"> سلمى محمد </h5>
+                            <p class="text-[#4E5969]">  إشتركت في دورة التخلص من الإكتئاب </p>
+                        </div>
+
+                        <div class="price">
+                            <p class="text-[#4E5969]">منذ 2 دقائق</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="client_session border border-1 border-[#88888848] p-4 rounded-xl mb-[30px]">
+                <div class="info_cleint flex items-center gap-4">
+
+                    <div class="img_client">
+                        <img src="imgs/user_pic.png" alt="client img" class="w-[50px] h-[50px] rounded-[50%]">
+                    </div>
+
+                    <div class="about_client flex-grow items-center">
+
+                        <div class="flex gap-3">
+                            <h5 class="text-[#1D2129] font-bold"> سلمى محمد </h5>
+                            <p class="text-[#4E5969]">  إشتركت في دورة التخلص من الإكتئاب </p>
+                        </div>
+
+                        <div class="price">
+                            <p class="text-[#4E5969]">منذ 2 دقائق</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="client_session border border-1 border-[#88888848] p-4 rounded-xl mb-[30px]">
+                <div class="info_cleint flex items-center gap-4">
+
+                    <div class="img_client">
+                        <img src="imgs/user_pic.png" alt="client img" class="w-[50px] h-[50px] rounded-[50%]">
+                    </div>
+
+                    <div class="about_client flex-grow items-center">
+
+                        <div class="flex gap-3">
+                            <h5 class="text-[#1D2129] font-bold"> سلمى محمد </h5>
+                            <p class="text-[#4E5969]">  إشتركت في دورة التخلص من الإكتئاب </p>
+                        </div>
+
+                        <div class="price">
+                            <p class="text-[#4E5969]">منذ 2 دقائق</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="client_session border border-1 border-[#88888848] p-4 rounded-xl mb-[30px]">
+                <div class="info_cleint flex items-center gap-4">
+
+                    <div class="img_client">
+                        <img src="imgs/user_pic.png" alt="client img" class="w-[50px] h-[50px] rounded-[50%]">
+                    </div>
+
+                    <div class="about_client flex-grow items-center">
+
+                        <div class="flex gap-3">
+                            <h5 class="text-[#1D2129] font-bold"> سلمى محمد </h5>
+                            <p class="text-[#4E5969]">  إشتركت في دورة التخلص من الإكتئاب </p>
+                        </div>
+
+                        <div class="price">
+                            <p class="text-[#4E5969]">منذ 2 دقائق</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="client_session border border-1 border-[#88888848] p-4 rounded-xl mb-[30px]">
+                <div class="info_cleint flex items-center gap-4">
+
+                    <div class="img_client">
+                        <img src="imgs/user_pic.png" alt="client img" class="w-[50px] h-[50px] rounded-[50%]">
+                    </div>
+
+                    <div class="about_client flex-grow items-center">
+
+                        <div class="flex gap-3">
+                            <h5 class="text-[#1D2129] font-bold"> سلمى محمد </h5>
+                            <p class="text-[#4E5969]">  إشتركت في دورة التخلص من الإكتئاب </p>
+                        </div>
+
+                        <div class="price">
+                            <p class="text-[#4E5969]">منذ 2 دقائق</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="client_session border border-1 border-[#88888848] p-4 rounded-xl mb-[30px]">
+                <div class="info_cleint flex items-center gap-4">
+
+                    <div class="img_client">
+                        <img src="imgs/user_pic.png" alt="client img" class="w-[50px] h-[50px] rounded-[50%]">
+                    </div>
+
+                    <div class="about_client flex-grow items-center">
+
+                        <div class="flex gap-3">
+                            <h5 class="text-[#1D2129] font-bold"> سلمى محمد </h5>
+                            <p class="text-[#4E5969]">  إشتركت في دورة التخلص من الإكتئاب </p>
+                        </div>
+
+                        <div class="price">
+                            <p class="text-[#4E5969]">منذ 2 دقائق</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+    </section>
+</div>
+  </div>
+    
+</body>
+
+</html>
