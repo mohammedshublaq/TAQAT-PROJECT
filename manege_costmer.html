@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- foontawsem scc link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="parent_container flex">
+        <aside class="w-[20%] h-100% bg-[#075E66] text-white py-6">
+            <!-- الشعار -->
+            <div class="logo text-center mb-8">
+                <h1 class="text-[#CAE5DE] text-6xl font-bold">تحرر</h1>
+            </div>
+
+            <!-- روابط القائمة -->
+            <nav class="flex flex-col gap-2">
+                <a href="#" class="flex items-center gap-4 px-6 py-3 bg-[#81C6C3]">
+                    <i class="fa-solid fa-table-cells-large"></i> <span>الرئيسية</span>
+                </a>
+                <a href="#" class="flex items-center gap-4 px-6 py-3 hover:bg-[#81C6C3]">
+                    <i class="fa-solid fa-users"></i> <span>إدارة العملاء</span>
+                </a>
+                <a href="#" class="flex items-center gap-4 px-6 py-3 hover:bg-[#81C6C3]">
+                    <i class="fa-solid fa-user-doctor"></i> <span>إدارة الأخصائيين</span>
+                </a>
+                <a href="#" class="flex items-center gap-4 px-6 py-3 hover:bg-[#81C6C3]">
+                    <i class="fa-solid fa-comments"></i> <span>الجلسات</span>
+                </a>
+                <a href="#" class="flex items-center justify-between px-6 py-3 hover:bg-[#81C6C3]">
+                    <div class="flex items-center gap-4">
+                        <i class="fa-solid fa-shield-heart"></i> <span>برامج الدعم</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-down text-sm"></i>
+                </a>
+                <a href="#" class="flex items-center gap-4 px-6 py-3 hover:bg-[#81C6C3]">
+                    <i class="fa-solid fa-chart-line"></i> <span>التقارير والإحصائيات</span>
+                </a>
+                <a href="#" class="flex items-center gap-4 px-6 py-3 hover:bg-[#81C6C3]">
+                    <i class="fa-solid fa-message"></i> <span>إدارة المحادثات</span>
+                </a>
+                <a href="#" class="flex items-center justify-between px-6 py-3 hover:bg-[#81C6C3]">
+                    <div class="flex items-center gap-4">
+                        <i class="fa-solid fa-bell"></i> <span>الإشعارات</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-down text-sm"></i>
+                </a>
+                <a href="#" class="flex items-center justify-between px-6 py-3 hover:bg-[#81C6C3]">
+                    <div class="flex items-center gap-4">
+                        <i class="fa-solid fa-pen-to-square"></i> <span>الصفحات</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-down text-sm"></i>
+                </a>
+                <a href="#" class="flex items-center gap-4 px-6 py-3 hover:bg-[#81C6C3]">
+                    <i class="fa-solid fa-gear"></i> <span>الإعدادات</span>
+                </a>
+
+                <div class="border-b border-[#81C6C3] pt-2">
+                    <a href="#" class="flex items-center gap-4 px-6 py-3 hover:bg-[#81C6C3]">
+                        <i class="fa-solid fa-right-from-bracket"></i> <span>تسجيل الخروج</span>
+                    </a>
+                </div>
+
+            </nav>
+        </aside>
+
+
+
+
+
+        <div class="content_page w-[80%]">
+            <!-- header sec start here -->
+            <header class="bg-white p-[10px_20px] border-b border-[#88888848]">
+                <nav class="flex justify-between items-center">
+                    <!-- left_main_sec -->
+                    <div class="search_side relative flex items-center w-[400px]">
+                        <i class="fa-solid fa-magnifying-glass absolute right-[15px] text-[#888888]"></i>
+                        <input type="text" placeholder="إبحث عن أي شي داخل المنصة"
+                            class="w-full p-[10px_40px_10px_15px] outline-none border border-[#88888848] rounded-[8px]">
+                    </div>
+
+                    <div class="user_side flex items-center gap-[20px]">
+                        <div class="unkown_class relative">
+                            <a href="">
+                                <i
+                                    class="fa-solid fa-bell p-[15px] rounded-[8px] border border-[#8888889f] text-[#888888] text-2xl">
+
+                                </i></a>
+                            <span class="absolute h-[20px] w-[20px] rounded-[50%] bg-red-600 right-[9px] top-[9px]">
+                                <p class="text-center text-amber-50 absolute top-[0px] right-[7px] text-[12px]">1</p>
+                            </span>
+                        </div>
+                        <div class="info_side flex items-center gap-[10px]">
+                            <div class="profile_img">
+                                <img src="imgs/profile_imgs.jpg" alt="صورة المستخدم"
+                                    class="w-[50px] h-[50px] rounded-[50%] object-cover">
+                            </div>
+                            <div class="wlc_name w-[50px] text-center text-[#888888]">
+                                <p class="text-[#888888]">مرحبا <span class="text-[#000000]"><b>أيوب</b></span></p>
+                            </div>
+                            <a href=""> <i class="fa-solid fa-chevron-down text-[#888888]"></i></a> <!-- arrow_icon  -->
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <!-- header sec end here -->
+            <!-- main start here -->
+            <main class="p-[10px_20px]">
+                <div class="hero_title">
+                    <div class="title flex gap-[5px] pt-[20px] pb-[10px]">
+                        <div class="img">
+                            <img src="imgs/people.png" alt="">
+                        </div>
+                        <h3 class="text-[#075E66]">أدارة العملاء</h3>
+                        <p class="text-[#86909C]">
+                            ( <span>245</span> عميل )
+                        </p>
+                    </div>
+                    <!-- for hr -->
+                    <div class="h-[2px] bg-[#E5E6EB] w-[100%] m-auto"></div>
+                    <div class="for_all_costmer pt-[5px]">
+                        <p class="text-[#86909C]">إستعراض كافة العملاء</p>
+                    </div>
+                </div>
+                <!-- coustmer_search start here -->
+                <div class="coustmer_search flex items-center justify-between gap-4 py-4">
+
+
+                    <div class="flex items-center gap-2 flex-1 ">
+
+
+                        <button
+                            class="flex items-center gap-2 px-4 py-2 border border-[#E5E6EB] rounded-lg text-[#86909C] hover:bg-gray-50 transition cursor-pointer">
+                            <span>تصفية</span>
+                            <i class="fa-solid fa-filter"></i>
+                        </button>
+                        <div class="relative w-full max-w-sm">
+                            <input type="text" placeholder="البحث عن عميل..."
+                                class="w-full pr-10 pl-4 py-2 border border-[#E5E6EB] rounded-lg outline-none">
+                            <!--focus:ring-[#075E66]-->
+                            <i
+                                class="fa-solid fa-magnifying-glass absolute right-3 top-1/2 -translate-y-1/2 text-[#86909C]"></i>
+                        </div>
+
+
+
+                    </div>
+                    <button
+                        class="bg-[#075E66] text-white px-6 py-2 rounded-lg flex items-center gap-2 hover:bg-[#054a50] transition cursor-pointer">
+                        <i class="fa-solid fa-plus"></i>
+                        إضافة مستخدم
+                    </button>
+
+                </div>
+                <!-- coustmer_search end here -->
+
+            </main>
+            <!-- main end here -->
+
+            <!-- table section start here -->
+
+            <section class="m-[10px_20px] overflow-hidden rounded-[20px] border-[2px] border-[#E5E6EB]">
+                <table class="table-fixed w-full text-center">
+                    <thead>
+                        <tr class="border-b border-[#E5E6EB]">
+                            <th class="py-3">الاسم</th>
+                            <th class="py-3">البريد الإلكتروني</th>
+                            <th class="py-3">رقم الجوال</th>
+                            <th class="py-3">الجنس</th>
+                            <th class="py-3">الحاله الاجتماعيه</th>
+                            <th class="py-3">تاريخ الميلاد</th>
+                            <th class="py-3 w-[50px]"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b border-[#E5E6EB]">
+                            <td class="py-3">شيماء أبو القميز</td>
+                            <td class="py-3">user.user@gmail.com</td>
+                            <td class="py-3">0595249576</td>
+                            <td class="py-3">أنثى</td>
+                            <td class="py-3">أعزب</td>
+                            <td class="py-3">5/5/2001</td>
+                            <td class="py-3 w-[50px]"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                        </tr>
+                        <tr class="border-b border-[#E5E6EB]">
+                            <td class="py-3">شيماء أبو القميز</td>
+                            <td class="py-3">user.user@gmail.com</td>
+                            <td class="py-3">0595249576</td>
+                            <td class="py-3">أنثى</td>
+                            <td class="py-3">أعزب</td>
+                            <td class="py-3">5/5/2001</td>
+                            <td class="py-3 w-[50px]"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                        </tr>
+                        <tr class="border-b border-[#E5E6EB]">
+                            <td class="py-3">شيماء أبو القميز</td>
+                            <td class="py-3">user.user@gmail.com</td>
+                            <td class="py-3">0595249576</td>
+                            <td class="py-3">أنثى</td>
+                            <td class="py-3">أعزب</td>
+                            <td class="py-3">5/5/2001</td>
+                            <td class="py-3 w-[50px]"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                        </tr>
+                        <tr class="border-b border-[#E5E6EB]">
+                            <td class="py-3">شيماء أبو القميز</td>
+                            <td class="py-3">user.user@gmail.com</td>
+                            <td class="py-3">0595249576</td>
+                            <td class="py-3">أنثى</td>
+                            <td class="py-3">أعزب</td>
+                            <td class="py-3">5/5/2001</td>
+                            <td class="py-3 w-[50px]"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                        </tr>
+                        <tr class="border-b border-[#E5E6EB]">
+                            <td class="py-3">شيماء أبو القميز</td>
+                            <td class="py-3">user.user@gmail.com</td>
+                            <td class="py-3">0595249576</td>
+                            <td class="py-3">أنثى</td>
+                            <td class="py-3">أعزب</td>
+                            <td class="py-3">5/5/2001</td>
+                            <td class="py-3 w-[50px]"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                        </tr>
+                        <tr class="border-b border-[#E5E6EB]">
+                            <td class="py-3">شيماء أبو القميز</td>
+                            <td class="py-3">user.user@gmail.com</td>
+                            <td class="py-3">0595249576</td>
+                            <td class="py-3">أنثى</td>
+                            <td class="py-3">أعزب</td>
+                            <td class="py-3">5/5/2001</td>
+                            <td class="py-3 w-[50px]"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                        </tr>
+                        <tr class="border-b border-[#E5E6EB]">
+                            <td class="py-3">شيماء أبو القميز</td>
+                            <td class="py-3">user.user@gmail.com</td>
+                            <td class="py-3">0595249576</td>
+                            <td class="py-3">أنثى</td>
+                            <td class="py-3">أعزب</td>
+                            <td class="py-3">5/5/2001</td>
+                            <td class="py-3 w-[50px]"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="py-3">شيماء أبو القميز</td>
+                            <td class="py-3">user.user@gmail.com</td>
+                            <td class="py-3">0595249576</td>
+                            <td class="py-3">أنثى</td>
+                            <td class="py-3">أعزب</td>
+                            <td class="py-3">5/5/2001</td>
+                            <td class="py-3 w-[50px]"><i class="fa-solid fa-ellipsis-vertical"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <!-- table section end here -->
+
+
+            <!-- swiper section start here -->
+            <section class="w-[100%]">
+                <div class="swiper_icon m-auto w-[100%] flex items-center justify-center gap-[20px] py-4 ">
+                    <i class="fa-solid fa-chevron-right text-[#075E66] cursor-pointer"></i>
+                    <div class="number_of_page flex items-center gap-[20px] ">
+                        <span class="text-[#075E66] cursor-pointer">1</span>
+                        <span class="text-[#86909C] cursor-pointer">2</span>
+                        <span class="text-[#86909C] cursor-pointer">.</span>
+                        <span class="text-[#86909C] cursor-pointer">.</span>
+                        <span class="text-[#86909C] cursor-pointer">.</span>
+                        <span class="text-[#86909C] cursor-pointer">12</span>
+
+
+                    </div>
+                    <i class="fa-solid fa-chevron-left text-[#86909C] cursor-pointer"></i>
+                </div>
+            </section>
+            <!-- swiper section end here -->
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
